@@ -7,7 +7,7 @@
   }, {
     "name": "User Interface Development",
     "shortname": "User_Interface_Development",
-    "skill": "HTML5 | CSS3 | EJS | jQuery",
+    "skill": "HTML5 | CSS3 | EJS | jQuery | Bootstrap ",
     "achievement": "Developed Web UI for Video Analytics Configuration Application that works on all screen sizes"
   }, {
     "name": "API and Web Server",
