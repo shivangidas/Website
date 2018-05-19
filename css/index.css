@@ -1,0 +1,506 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*background-image: url(../images/diagmonds.png);
+    background-repeat: repeat;
+    color: #eee;*/
+    background-color: #eee;
+    color: rgba(0, 0, 0, 0.55);
+    /*box-shadow: 0px 0px 4px #333;*/
+}
+body {
+        color: #777;
+        /* Margin bottom by footer height */ 
+        margin-bottom: 119px;
+        /*Margin top by nav size*/
+        margin-top: 65px;
+    }
+.HomePage{
+    margin-top: 0px;
+}
+footer {
+        /* Set the fixed height of the footer here */
+        height: 119px;
+    }
+body > div:first-of-type{
+   box-shadow: 0px 0px 4px rgba(153, 153, 153, 0.88);
+}
+.bg_load {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #EEE;
+}
+
+.wrapper {
+    /* Size and position */
+    font-size: 1em; /* 1em */
+    width: 10em;
+    height: 10em;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -5em;
+    margin-left: -5em;
+    background-image: url("../images/Loading_icon.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footnote img{
+    width:4em;height:4em;display:inline-block!important;
+}
+.footnote article{
+    display:inline-block!important;
+    color: #6e6e6e;
+    font-weight: bold;
+    line-height: 3em;
+}
+#copyright{
+    font-size:0.7em;padding-top: 10px;
+}
+#contactIcons a{
+    padding: 0em 0.3em;
+    font-size:1.5em;
+    color:rgba(110, 110, 110, 0.71);
+}
+#contactIcons a#emailId i:hover{
+    color:#d54a3d;
+}
+#contactIcons a#linkedIn i:hover{
+    color:#007BB6;
+}
+#contactIcons a#github i:hover{
+    color:#444444;
+}
+#contactIcons a#facebook i:hover{
+    color:#3B5998;
+}
+#contactIcons a#twitter i:hover{
+    color:#1da1f2;
+}
+#contactIcons a#blogger i:hover{
+    color:#ff5722;
+}
+#contactIcons a#codepen i:hover{
+    color:black;
+}
+.push{
+    padding: 1em 0em;
+    clear:both;
+}
+.icon-menu3, .icon-menu4{
+    font-size: 20px;
+}
+.navbar-toggle{
+    padding: 5px 5px;
+}
+
+.objectivePara p {
+    padding-top: 0.1%;
+}
+.contact-header-space {
+    padding-top: 10%;
+}
+
+.footnote{
+        padding: 5px 0 5px 0;
+}
+
+/* Landscape phones and portrait tablets */
+
+/*@media (max-width: 767px) {
+    .footnote{
+        padding: 5px 0 5px 0;
+    }
+}*/
+/* others */
+
+/*@media (min-width: 768px) {
+    .footnote{
+        padding: 5px 0 5px 0;
+    }
+}*/
+.skillsHeader {
+    padding-bottom: 2%;
+    color: rgba(0, 139, 139, 0.77);;
+}
+.progress{
+    box-shadow:inset -1px 1px 2px rgba(0,0,0,.5);
+}
+.SkillsPage .img-thumbnail{
+    transition: transform .2s ease-out;
+  transition: -ms-transform .2s ease-out;
+  -webkit-transition: -webkit-transform .2s ease-out;
+  -moz-transition: -moz-transform .2s ease-out;
+  -o-transition: -o-transform .2s ease-out;
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,.5);
+}
+.SkillsPage .img-thumbnail:hover{
+ transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+/*.jumbotron h2 {
+    font-style: normal;
+    font-variant: normal;
+    color: darkcyan;
+}
+.jumbotron h5 {
+    color: #086161;
+}
+.jumbotron {
+    background-image: url(../images/weather.png);
+    background-repeat: repeat;
+}*/
+
+.forphone.col-xs-12 {
+    margin-bottom: 2%;
+}
+/*Academics*/
+
+@media (min-width: 768px) {
+    /*#collegePic{
+        background-image: url(../images/mainbuildingclear.jpg);
+        height: 9em;
+        width:22%;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+
+    #schoolPic{
+        background-image: url(../images/schoolbuilding.jpg);
+        height: 9em;
+        width:22%;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain;
+    }*/
+    .description{
+        width:75%;
+        display:inline-block;
+    }
+    .parallax1 {
+        /* The image used */
+        
+        background-image: url('../images/mainbuildingsoft.jpg');
+        
+        /* Full height */
+        
+        height: 200px;
+        width: 100%;
+        /* Create the parallax scrolling effect */
+        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax12{
+        /* The image used */
+        
+        background-image: url('../images/mainbuildingclear.jpg');
+        
+        /* Full height */
+        
+        height: 600px;
+        width: 100%;
+        /* Create the parallax scrolling effect */
+        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax2 {
+        /* The image used */
+        
+        background-image: url('../images/schoolbuildingsoft.jpg');
+        
+        /* Full height */
+        
+        height: 200px;
+        width: 100%;
+        /* Create the parallax scrolling effect */
+        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax22 {
+        /* The image used */
+        
+        background-image: url('../images/schoolbuilding.jpg');
+        
+        /* Full height */
+        
+        height: 600px;
+        width: 100%;
+        /* Create the parallax scrolling effect */
+        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #collegeInfo{
+        padding: 5em 1em;
+        } 
+    #schoolInfo{
+        padding: 5em 1em;
+    }
+}
+@media (max-width: 767px) {
+    .parallax1 {
+        /* The image used */
+        
+        background-image: url('../images/mainbuildingclear-001.jpg');
+        /* Full height */
+        
+        height: 200px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .parallax2 {
+        /* The image used */
+        
+        background-image: url('../images/schoolbuilding-004.jpg');
+        /* Full height */
+        
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #collegeInfo, #schoolInfo{
+        padding:1em;
+        width:100%;
+        margin-left:0em;
+    }
+                
+    .parallax1,.parallax2{
+        margin-bottom:2em;
+    }
+    .secondDiv{
+        display: none;
+    }
+    .responsibility{
+        padding: 0.5em 1em !important;
+    }
+}
+@media (max-width: 347px) {
+    .parallax1 {
+        height: 255px;
+        width: 100%;
+    }
+    .parallax2 {
+        
+        height: 300px;
+        width: 100%;
+    }
+    #contactIcons a{
+    padding: 0em 0.2em;
+    font-size:1.2em;
+    }
+    #copyright{
+        font-size: 0.6em;
+    }
+}
+@media screen and (min-width: 900px){
+    #collegePic{
+        width: 30%;
+    }
+    #schoolPic{
+        width: 30%;
+    }
+    .description{
+        width:68%;
+    }
+}
+@media screen and (min-width: 1100px){
+    #collegePic{
+        width: 35%;
+    }
+    #schoolPic{
+        width: 35%;
+    }
+    .description{
+        width:60%;
+    }
+}
+.hideDiv {
+    display: none;
+}
+
+#collegeInfo p,
+#schoolInfo p {
+    margin: 0 0 0 0;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px #000, 0 0 25px #e4d1c9, 0 0 5px #333;
+    /*mix-blend-mode: difference;*/
+}
+.InterestsPage p.description {
+    color: rgba(28, 105, 101, 0.77);
+}
+.InterestsPage .item p.description {
+    color: lightgrey;
+}
+#nav_up,
+#nav_down {
+    color: #4691d2;
+    background-color: rgba(0,0,0,.075);    
+}
+#nav_up:hover,
+#nav_down:hover {
+    color: #1a77c8;
+    border-style: none;    
+}
+/********************************************************/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 50%;
+    margin: auto;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control {
+    color: #337ab7;
+}
+.carousel-control:hover {
+    color: #337ab7;
+    opacity: 1;
+}
+/*Experience*/
+
+/*#prev_btn,
+#next_btn {
+    color: #1c82da;
+    opacity: 0.5;
+    font-size: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 1em;
+    border:none;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+#prev_btn:hover,
+#next_btn:hover {
+    opacity: 1;
+}*/
+.responsibility {
+    box-shadow: -5px 1px 8px 0 rgba(0, 0, 0, 0.2), -1px 4px 6px 0 rgba(0, 0, 0, 0.19);    
+    margin: 0 auto;
+    padding: 1em 1em;
+
+}
+.responsibilityDes{
+    box-shadow: 4px 1px 8px 0 rgba(0, 0, 0, 0.2), 2px 4px 6px 0 rgba(0, 0, 0, 0.19);
+     margin: 0 auto;
+    padding: 1em 1em; 
+}
+.responsibility h4,
+.responsibilityDes h5 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.responsibility h4 {
+    line-height: 0.9em;
+    color: rgba(0, 139, 139, 0.77);
+    padding: 1em 0;
+    font-weight: bold;
+}
+.responsibilityDes h5 {
+    color: rgba(17, 102, 17, 0.81);
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.2em;
+    padding-bottom: 1em;
+}
+/*#experienceBox img {
+    float: right;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100px;
+}*/
+.responsibilityDes p {
+    color: rgba(28, 105, 101, 0.77);
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+.panel{
+    box-shadow: none;
+}
+/*new hero image */
+.hero {
+  background: url("../images/IMG_20170204_131511872.jpg") no-repeat center center;
+  background-size: cover;
+   }
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #536a78, rgba(48, 129, 130, 0.88));
+    opacity: .8; }
+  .hero .intro {
+    padding: 2em;
+    position: relative;
+    top: 20%; }
+  .hero h1 {
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center; }
+  .hero h2 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 1em; }
+  .hero .my-img {
+    background: url("../images/image6.jpg") no-repeat center center;
+    background-size: cover;
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; }
+  @media only screen and (min-width: 40.063em) {
+    .hero .my-img {
+      height: 10em;
+      width: 10em; }
+    .hero h1 {
+      font-size: 2.5em; }
+    .hero h2 {
+          font-size: 1.5em;
+      }
+     }
+.hero .portfolio{
+  text-align:center;
+}

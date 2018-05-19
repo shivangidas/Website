@@ -1,0 +1,23 @@
+{
+  "responsibility": [{
+    "name": "User Interface Design",
+    "shortname": "User_Interface_Design",
+    "skill": "Usabilty tests | Mockups",
+    "achievement": "Designed user interface (UI) for the Web Application by getting in touch with Users and Support personnel. Created mock-ups for rapid usability testing."
+  }, {
+    "name": "User Interface Development",
+    "shortname": "User_Interface_Development",
+    "skill": "HTML5 | CSS3 | EJS | jQuery",
+    "achievement": "Developed Web UI for Video Analytics Configuration Application that works on all screen sizes"
+  }, {
+    "name": "API and Web Server",
+    "shortname": "API_and_Web_Server",
+    "skill": "Node.js | Express.js | MySQL | Sequelize",
+    "achievement": "Developed Rest APIs and server using Node.js, Express.js and MySQL. Used Sequelize ORM to reduce database dependency. Set up Internationalization anticipating use in non-English speaking areas."
+  }, {
+    "name": "Multitenant Architecture",
+    "shortname": "Multitenant_Architecture",
+    "skill": "Node.js | Express.js | Sequelize | EJS | jQuery",
+    "achievement": "Undertook designing and developing a multitenant architecture."
+  }]
+}
