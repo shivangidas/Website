@@ -26,23 +26,23 @@
             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
                 <section ng-controller="PanelController as panel">
                     <ul class="nav nav-pills">
-                        <li ng-class="{active: panel.isSelected(4)}">
-                            <a href ng-click="panel.selectTab(4)">{{company.company[4].name}}</a>
-                        </li>
                         <li ng-class="{active: panel.isSelected(1)}">
-                            <a href ng-click="panel.selectTab(1)">{{company.company[0].name}}</a>
+                            <a href ng-click="panel.selectTab(1)">{{company.company[4].name}}</a>
                         </li>
-                        <li ng-class="{active:panel.isSelected(2)}">
-                            <a href ng-click="panel.selectTab(2)">{{company.company[3].name}}</a>
+                        <li ng-class="{active: panel.isSelected(2)}">
+                            <a href ng-click="panel.selectTab(2)">{{company.company[0].name}}</a>
                         </li>
                         <li ng-class="{active:panel.isSelected(3)}">
-                            <a href ng-click="panel.selectTab(3)">{{company.company[1].name}}</a>
+                            <a href ng-click="panel.selectTab(3)">{{company.company[3].name}}</a>
+                        </li>
+                        <li ng-class="{active:panel.isSelected(4)}">
+                            <a href ng-click="panel.selectTab(4)">{{company.company[1].name}}</a>
                         </li>
                         <!-- <li ng-class="{active:panel.isSelected(4)}">
                             <a href ng-click="panel.selectTab(4)">{{company.company[2].name}}</a>
                         </li> -->
                     </ul>
-                    <div class="panel" ng-show="panel.isSelected(4)">
+                    <div class="panel" ng-show="panel.isSelected(1)">
                         <center>
                             <h3>{{company.company[4].fullname}}</h3>
                             <h4>Project: {{company.company[4].project}}</h4>
@@ -75,7 +75,7 @@
                             
                         
                     </div><!-- panel 1 -->
-                    <div class="panel" ng-show="panel.isSelected(1)">
+                    <div class="panel" ng-show="panel.isSelected(2)">
                         <center>
                             <h3>{{company.company[0].fullname}}</h3>
                             <h4>Project: {{company.company[0].project}}</h4>
@@ -113,7 +113,7 @@
                         
                     </div><!-- panel 1 -->
                     <!-- major project -->
-                    <div class="panel" ng-show="panel.isSelected(3)">
+                    <div class="panel" ng-show="panel.isSelected(4)">
                         <center>
                             <h3>{{company.company[1].fullname}}</h3>
                             <h5>{{company.company[1].duration}}</h5>
@@ -162,7 +162,7 @@
                         </div>                       
                     </div><!-- panel 3 -->
 
-                    <div class="panel" ng-show="panel.isSelected(2)">
+                    <div class="panel" ng-show="panel.isSelected(3)">
                         <center>
                             <h3>{{company.company[3].fullname}}</h3>
                             <h5>{{company.company[3].duration}}</h5>
