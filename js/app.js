@@ -125,7 +125,12 @@
         project5: 'A 3D page',
         duration5: '(One fine night)',
         language5: 'HTML5 | CSS3 | jQuery',
-        complexity5: 'Developed a simple, 3-dimensional interactive page.'
+        complexity5: 'Developed a simple, 3-dimensional interactive page.',
+        fullname6: 'Machine Learning',
+        project6: 'ML and DL Projects',
+        duration6: '(April 2016 - Present)',
+        language6: 'Python | JavaScript | TensorFlow.js | p5.js | HTML5',
+        complexity6: 'Applying Machine Learning and Deep Learning'
         },
         {
         name: 'AllGoVision',
