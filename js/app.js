@@ -128,7 +128,7 @@
         complexity5: 'Developed a simple, 3-dimensional interactive page.',
         fullname6: 'Machine Learning',
         project6: 'ML and DL Projects',
-        duration6: '(April 2016 - Present)',
+        duration6: '(April 2018 - Present)',
         language6: 'Python | JavaScript | TensorFlow.js | p5.js | HTML5',
         complexity6: 'Applying Machine Learning and Deep Learning'
         },
