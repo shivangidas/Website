@@ -134,7 +134,7 @@
         },
         {
         name: 'AllGoVision',
-        fullname: 'AllGoVision Technologies Ptv. Ltd.',
+        fullname: 'AllGoVision Technologies Pvt. Ltd.',
         project: 'Web Interface for Video Analytics Configuration Application',
         duration: '(May 2017 - Present)'
         }
