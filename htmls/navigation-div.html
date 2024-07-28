@@ -1,26 +1,26 @@
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <i class="icon-menu3" aria-hidden="true"></i>
             <i class="icon-menu4 hidden" aria-hidden="true"></i>
-            </button>
-            <a class="navbar-brand" href="#">Shivangi</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Experience.html">Experience</a></li>
-                <li><a href="Skills.html">Skills</a></li>
-                <li><a href="Academics.html">Academics</a></li>
-                <li><a href="Interests.html">Interests</a></li>
-            </ul>
-        </div>
+        </button>
+        <a class="navbar-brand" href="#">Shivangi</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="Experience.html">Experience</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Academics.html">Academics</a></li>
+            <li><a href="Interests.html">Interests</a></li>
+        </ul>
+    </div>
+</div>
 
 <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function () {
         if ($('body').hasClass('AboutMePage')) {
-            $('.navbar-brand').css('color','white');
+            $('.navbar-brand').css('color', 'white');
         } else if ($('body').hasClass('HomePage')) {
             $('#myNavbar ul li:eq(0)').addClass('active');
         } else if ($('body').hasClass('ExperiencePage')) {
@@ -32,12 +32,12 @@
         } else if ($('body').hasClass('InterestsPage')) {
             $('#myNavbar ul li:eq(4)').addClass('active');
         }
-        $('button.navbar-toggle').click(function(){
+        $('button.navbar-toggle').click(function () {
             $('i.icon-menu3').toggleClass('hidden');
-            if($('i.icon-menu3').hasClass('hidden')){
+            if ($('i.icon-menu3').hasClass('hidden')) {
                 $('i.icon-menu4').removeClass('hidden');
             }
-            else{
+            else {
                 $('i.icon-menu4').addClass('hidden');
             }
         });
